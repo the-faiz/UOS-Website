@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Jaro:opsz@6..72&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* NAvbar */
+.navbar-brand{
+    font-family: "Merriweather Sans", sans-serif;
+}
+.navbutton2{
+    display: none;
+}
+.navbutton{
+    display: flex;
+}
+.navbutton button{
+    margin-right:20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+@media (max-width: 1000px) {
+    .navbutton{
+      display: none;
+    }
+    .navbutton2{
+        display: block;
+    }
+  }
+
+/* Navbar ends  */

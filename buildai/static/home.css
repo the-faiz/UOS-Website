@@ -1,0 +1,179 @@
+/* Front Page  */
+
+img{
+    width:60%;
+}
+.component1{
+    width:100vw;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component1 h1{
+    font-size: 4rem;
+    margin:10px;
+}
+.component1 h4{
+    font-family: "Edu TAS Beginner", cursive;
+    margin:10px;
+}
+.component1 button{
+    font-size: 1.5rem;
+    margin:10px;
+}
+
+.frontext{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Front Page ends */
+
+/* Card */
+.component2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card3{
+    border:1px solid black;
+    width:40rem;
+    height:30rem;
+    border-radius: 10px;;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card31{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/smart_home.jpg) center/cover;
+}
+.card32{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/Renovated_Building.jpg) center/cover;
+}
+
+.card3:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 1px 1px;
+    justify-content: center;
+    .hovernotshow{
+        display: none;
+    }
+    .hovershow{
+        display: flex;
+    }
+}
+
+.card3 h3{
+    color:white;
+}
+
+.card3 .pnumber{
+    border: 1px solid white;
+    width:5rem;
+    height: 5rem;
+    border-radius: 100px;
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    display: none;
+
+}
+.card3 .pnumber h2{
+    color:white;
+}
+.card3 p{
+    color:white;
+}
+.hovershow{
+    display: none;
+}
+
+.component3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component3 .card3{
+    width:30rem;
+    height:20rem;
+}
+
+.component3 .card31{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/reduce_bills.avif) center/cover;
+}
+.component3 .card32{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/building-vector.jpg) center/cover;
+}
+.component3 .card33{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/biofuel.jpg) center/cover;
+}
+
+/* component4 */
+.carousel .cardinner{
+    border:1px solid black;
+    width:95%;
+    height:95%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cardouter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    width:10rem;
+    height:13rem;
+}
+.cardinner:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px 1px;
+    justify-content: center;
+    .hovernotshow{
+        display: none;
+    }
+    .hovershow{
+        display: flex;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hovershow{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

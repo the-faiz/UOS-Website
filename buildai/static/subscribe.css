@@ -1,0 +1,55 @@
+.subspage{
+    width:100vw;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan{
+    border:1px solid black;
+    width:20rem;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 30px 0px 10px 0px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.plan:hover{
+    box-shadow: 3px 3px 3px 3px;
+    .subs{
+        font-size: 1.1rem;
+    }
+}
+
+.subsprice{
+    font-size: 5rem;
+}
+
+.des{
+    text-align: center;
+}
+
+.planfeature li{
+    list-style-type: none;
+    margin:5px 5px;
+    display: flex;
+}
+
+@media (max-width:1000px){
+    .subsprice{
+        font-size: 2rem;
+    }
+    .subspage{
+        font-size:0.8rem;
+    }
+}
+@media (max-width:786px){
+    .subspage{
+        flex-direction: column;
+    }
+}
