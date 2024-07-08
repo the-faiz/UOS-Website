@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-2m3b1shh9l3+a1=#kx=kxe7(ojhkqix7*nnh^hfve^qz(&(_rt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["bigan.furniturerental.store"]
 
 
 # Application definition
